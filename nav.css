@@ -1,0 +1,33 @@
+nav {
+    padding: 20px;
+    background-color: #dbdbdb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.nav-content {
+    display: flex;
+}
+
+.action-items {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-actions {
+    float: right;
+}
+
+.btn {
+    color: #000;
+    padding: 10px;
+    background-color: #f2f2f2;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #dbdbdb;
+    box-shadow: 0 0 5px #000;
+}
